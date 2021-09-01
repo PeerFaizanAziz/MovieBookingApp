@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e2e2e2"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            tools:listitem="@layout/recyclerview_item" />
+
+        <ImageView
+            android:id="@+id/imv_view"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cam"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="title"
+            android:maxLines="1"
+
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:maxLines="2"
+
+            android:hint="description"
+
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/price1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="price1"
+            android:maxLines="1"
+
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/price2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="price2"
+android:maxLines="1"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/price3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="price3"
+            android:maxLines="1"
+
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/price4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="price4"
+            android:maxLines="1"
+
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/add_movie_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Add Movie"
+
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/show_bookings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Show Bookings"
+
+            android:visibility="gone" />
+
+
+
+    </LinearLayout>
+</ScrollView>

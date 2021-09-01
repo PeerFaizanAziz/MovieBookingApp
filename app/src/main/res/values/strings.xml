@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MovieBookingApp</string>
+    <string name="login_as_admin">Login as Admin</string>
+    <string name="login_as_user">Login as User</string>
+</resources>
